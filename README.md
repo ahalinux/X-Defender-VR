@@ -2,7 +2,7 @@
 
 ## About the VR Game
 - This is my VR game called "X-Defender", Can be used for Google cardboard and Xiaomi VR Play.
-- My website [http://www.happygrep.com/](http://www.happygrep.com/)
+- My website: [www.happygrep.com](http://www.happygrep.com/)
 
 ## Compiler Environment
 - Made with Unity 5.4.2f2 (64-bit)
