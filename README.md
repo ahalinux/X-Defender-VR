@@ -1,7 +1,7 @@
 # X-Defender VR
 
 ## About the VR Game
-- This is my VR game called "X-Defender", Can be used for Google cardboard and Xiaomi VR Play.
+- This is my VR game called "X-Defender", Can be used for Google cardboard or Xiaomi VR Play.
 - My website: [www.happygrep.com](http://www.happygrep.com/)
 
 ## Compiler Environment
