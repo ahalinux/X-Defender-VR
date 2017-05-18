@@ -6,6 +6,7 @@ public class BulletSpawner : MonoBehaviour {
     public GameObject ballPrefab;
     public float ballSpeed = 5.0f;
     public Vector3 bulletSpawnerPosition;
+    //public GameObject bulletSpawner;    //test
 
     public float spawnInterval = 2.0f;
     private float nextSpawnTime = 0;
@@ -31,7 +32,9 @@ public class BulletSpawner : MonoBehaviour {
 
     private void BulletShootTest()
     {
-        GameObject instance = Instantiate(ballPrefab, this.transform.position, this.transform.rotation) as GameObject;
-        instance.GetComponent<Rigidbody>().velocity = new Vector3(-10, 10, 0);
+        //GameObject instance = Instantiate(ballPrefab, this.transform.position, this.transform.rotation) as GameObject;
+        GameObject instance = Instantiate(ballPrefab, bulletSpawnerPosition, this.transform.rotation) as GameObject;
+
+        instance.GetComponent<Rigidbody>().velocity = new Vector3(-30, 10, 0);
     }
 }

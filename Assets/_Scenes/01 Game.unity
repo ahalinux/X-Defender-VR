@@ -222,7 +222,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aaeb8625dbb5af044ab2b93596c791ba, type: 2}
-  m_RootGameObject: {fileID: 1809017343}
   m_IsPrefabParent: 0
 --- !u!1 &407557604
 GameObject:
@@ -378,57 +377,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 970dd4b9371394fb4890965f608d46fd, type: 2}
-  m_RootGameObject: {fileID: 868988292}
   m_IsPrefabParent: 0
---- !u!1 &868988292
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 177758, guid: 970dd4b9371394fb4890965f608d46fd, type: 2}
-  m_PrefabInternal: {fileID: 855051453}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 868988294}
-  - 114: {fileID: 868988293}
-  m_Layer: 0
-  m_Name: GvrViewerMain
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &868988293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11414954, guid: 970dd4b9371394fb4890965f608d46fd,
-    type: 2}
-  m_PrefabInternal: {fileID: 855051453}
-  m_GameObject: {fileID: 868988292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a40b544b8c3553c40852ae7ad35a9343, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vrModeEnabled: 1
-  distortionCorrectionEnabled: 1
-  neckModelScale: 0
-  autoUntiltHead: 1
-  UseUnityRemoteInput: 0
-  screenSize: 0
-  viewerType: 1
-  stereoScreenScale: 1
---- !u!4 &868988294
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 498412, guid: 970dd4b9371394fb4890965f608d46fd, type: 2}
-  m_PrefabInternal: {fileID: 855051453}
-  m_GameObject: {fileID: 868988292}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
 --- !u!1 &922138716
 GameObject:
   m_ObjectHideFlags: 0
@@ -4534,50 +4483,6 @@ RectTransform:
   m_AnchoredPosition: {x: -80.3, y: -23.7}
   m_SizeDelta: {x: 800, y: 330.15872}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1809017343
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000010672312140, guid: aaeb8625dbb5af044ab2b93596c791ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 310505305}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1809017345}
-  - 114: {fileID: 1809017344}
-  m_Layer: 0
-  m_Name: LevelManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1809017344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114000013325877714, guid: aaeb8625dbb5af044ab2b93596c791ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 310505305}
-  m_GameObject: {fileID: 1809017343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac39121258bf6d143a6043555f7de42a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeTillNextLevel: 60
---- !u!4 &1809017345
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4000013320757510, guid: aaeb8625dbb5af044ab2b93596c791ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 310505305}
-  m_GameObject: {fileID: 1809017343}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
 --- !u!1 &1878558996
 GameObject:
   m_ObjectHideFlags: 0
@@ -4622,6 +4527,7 @@ MonoBehaviour:
   ballPrefab: {fileID: 1000013707079648, guid: 31480c0e475bb6c4fbf15726793565e8, type: 2}
   ballSpeed: 200
   bulletSpawnerPosition: {x: 160, y: 15, z: 50}
+  bulletSpawner: {fileID: 1878558996}
   spawnInterval: 1
 --- !u!1 &1931844471
 GameObject:
