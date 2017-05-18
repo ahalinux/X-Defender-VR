@@ -332,6 +332,47 @@ MonoBehaviour:
   sourceMinDistance: 0
   hrtfEnabled: 1
   audioSource: {fileID: 0}
+--- !u!1 &422630568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 422630569}
+  - 114: {fileID: 422630570}
+  m_Layer: 0
+  m_Name: PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &422630569
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 422630568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 99.75964, y: 38.512146, z: 63.767883}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+--- !u!114 &422630570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 422630568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59bd46c910309e4187098acafce356a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Capacity: 10
 --- !u!1001 &855051453
 Prefab:
   m_ObjectHideFlags: 0
@@ -521,7 +562,7 @@ Transform:
   - {fileID: 1450731453}
   - {fileID: 1161083587}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
 --- !u!1 &1069481755
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,7 +2601,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!1 &1450731452
 GameObject:
   m_ObjectHideFlags: 0
@@ -4477,7 +4518,7 @@ RectTransform:
   - {fileID: 1931844472}
   - {fileID: 1181024802}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -80.3, y: -23.7}
@@ -4527,7 +4568,6 @@ MonoBehaviour:
   ballPrefab: {fileID: 1000013707079648, guid: 31480c0e475bb6c4fbf15726793565e8, type: 2}
   ballSpeed: 200
   bulletSpawnerPosition: {x: 160, y: 15, z: 50}
-  bulletSpawner: {fileID: 1878558996}
   spawnInterval: 1
 --- !u!1 &1931844471
 GameObject:
